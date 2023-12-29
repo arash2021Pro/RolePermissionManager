@@ -1,0 +1,17 @@
+E:\RiderProjects\InstaManager\CoreStorage\bin\Debug\net7.0\CoreStorage.deps.json
+E:\RiderProjects\InstaManager\CoreStorage\bin\Debug\net7.0\CoreStorage.runtimeconfig.json
+E:\RiderProjects\InstaManager\CoreStorage\bin\Debug\net7.0\CoreStorage.dll
+E:\RiderProjects\InstaManager\CoreStorage\bin\Debug\net7.0\CoreStorage.pdb
+E:\RiderProjects\InstaManager\CoreStorage\bin\Debug\net7.0\CoreBussiness.dll
+E:\RiderProjects\InstaManager\CoreStorage\bin\Debug\net7.0\CoreBussiness.pdb
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.csproj.AssemblyReference.cache
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.AssemblyInfoInputs.cache
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.AssemblyInfo.cs
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.csproj.CoreCompileInputs.cache
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.csproj.CopyComplete
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.dll
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\refint\CoreStorage.dll
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.pdb
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\CoreStorage.genruntimeconfig.cache
+E:\RiderProjects\InstaManager\CoreStorage\obj\Debug\net7.0\ref\CoreStorage.dll

@@ -1,0 +1,15 @@
+E:\RiderProjects\InstaManager\CoreApplication\bin\Debug\net7.0\CoreApplication.deps.json
+E:\RiderProjects\InstaManager\CoreApplication\bin\Debug\net7.0\CoreApplication.dll
+E:\RiderProjects\InstaManager\CoreApplication\bin\Debug\net7.0\CoreApplication.pdb
+E:\RiderProjects\InstaManager\CoreApplication\bin\Debug\net7.0\CoreBussiness.dll
+E:\RiderProjects\InstaManager\CoreApplication\bin\Debug\net7.0\CoreBussiness.pdb
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.csproj.AssemblyReference.cache
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.AssemblyInfoInputs.cache
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.AssemblyInfo.cs
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.csproj.CoreCompileInputs.cache
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.csproj.CopyComplete
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.dll
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\refint\CoreApplication.dll
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\CoreApplication.pdb
+E:\RiderProjects\InstaManager\CoreApplication\obj\Debug\net7.0\ref\CoreApplication.dll

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InstaManager</name>
+    </assembly>
+    <members>
+        <member name="T:InstaManager.Controllers.AutheticationController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:InstaManager.Controllers.AutheticationController.Authenticate(CoreBussiness.DTO.Users.LoginModel)">
+            <summary>
+            making user login and authenticate and then get a jwt token
+            </summary>
+        </member>
+        <member name="M:InstaManager.Controllers.AutheticationController.Logout">
+            <summary>
+            logging user out
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.AutheticationController.ChangePassword(CoreBussiness.DTO.Users.ChangePasswordModel,System.Threading.CancellationToken)">
+            <summary>
+            the authenticated user would be able to change his own password
+            </summary>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.CreateRole(CoreBussiness.DTO.Roles.RoleModel)">
+            <summary>
+            creating roles for users . roleId is not required to be sent , this is for edit mode
+            </summary>
+            <param name="roleModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.EditRole(CoreBussiness.DTO.Roles.RoleModel)">
+            <summary>
+            this is editing created role
+            </summary>
+            <param name="roleModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.ChangeRoleStatus(System.Int32)">
+            <summary>
+            changing status for roles
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.DeleteRole(System.Int32)">
+            <summary>
+            deleting roles
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.GetAllRoles(CoreBussiness.DTO.Roles.RoleQueryFilter)">
+            <summary>
+            listing all roles
+            </summary>
+            <param name="roleQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.GetRole(Segerations.Roles.Query.GetRoleQuery)">
+            <summary>
+            get an specific role via Id
+            </summary>
+            <param name="roleQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.GetAllPermissions">
+            <summary>
+            listing all permissions to be set for a role
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.SetRolePermission(CoreBussiness.DTO.Permissions.RolePermissions)">
+            <summary>
+            setting permissions for role
+            </summary>
+            <param name="rolePermissions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.SetUserRole(CoreBussiness.DTO.Users.EditUserRole)">
+            <summary>
+            setting roles for users
+            </summary>
+            <param name="editUserRole"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.ChangePermissionStatus(CoreBussiness.DTO.Permissions.PermissionChangeStatus)">
+            <summary>
+            changing status for permissions
+            </summary>
+            <param name="permissionChangeStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InstaManager.Controllers.RoleController.GetRolesSelection">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:InstaManager.Controllers.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:InstaManager.ModuleApplication.SeedApplication.DatabaseInitialService.#ctor(CoreStorage.AppContext.ApplicationContext,System.IServiceProvider)">
+            <summary>
+            
+            </summary>
+            <param name="applicationContext"></param>
+            <param name="serviceProvider"></param>
+        </member>
+        <member name="T:InstaManager.ModuleApplication.ServiceApps.ServiceApp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:InstaManager.ModuleApplication.ServiceApps.ServiceApp.StartApplicationService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+E:\RiderProjects\InstaManager\Segerations\bin\Debug\net7.0\Segerations.deps.json
+E:\RiderProjects\InstaManager\Segerations\bin\Debug\net7.0\Segerations.dll
+E:\RiderProjects\InstaManager\Segerations\bin\Debug\net7.0\Segerations.pdb
+E:\RiderProjects\InstaManager\Segerations\bin\Debug\net7.0\CoreBussiness.dll
+E:\RiderProjects\InstaManager\Segerations\bin\Debug\net7.0\CoreBussiness.pdb
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.csproj.AssemblyReference.cache
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.AssemblyInfoInputs.cache
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.AssemblyInfo.cs
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.csproj.CoreCompileInputs.cache
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.csproj.CopyComplete
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.dll
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\refint\Segerations.dll
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\Segerations.pdb
+E:\RiderProjects\InstaManager\Segerations\obj\Debug\net7.0\ref\Segerations.dll

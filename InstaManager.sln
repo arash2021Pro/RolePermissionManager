@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaManager", "InstaManager\InstaManager.csproj", "{BBFC9371-93B4-4640-AFD1-44105B1FBF95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBussiness", "CoreBussiness\CoreBussiness.csproj", "{260BA46B-D335-433A-BB6A-EAA7AA58FBB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreStorage", "CoreStorage\CoreStorage.csproj", "{14432E75-853B-4305-A0AE-1364E666A3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApplication", "CoreApplication\CoreApplication.csproj", "{B335719E-38CD-4EF9-AE81-804DA97554CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreInfraStructure", "CoreInfraStructure\CoreInfraStructure.csproj", "{01CCA03E-438B-4517-A871-0249EE1714B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segerations", "Segerations\Segerations.csproj", "{BB685122-D1A0-4D02-98F1-420F5DC4E747}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBFC9371-93B4-4640-AFD1-44105B1FBF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFC9371-93B4-4640-AFD1-44105B1FBF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFC9371-93B4-4640-AFD1-44105B1FBF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFC9371-93B4-4640-AFD1-44105B1FBF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260BA46B-D335-433A-BB6A-EAA7AA58FBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260BA46B-D335-433A-BB6A-EAA7AA58FBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260BA46B-D335-433A-BB6A-EAA7AA58FBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260BA46B-D335-433A-BB6A-EAA7AA58FBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14432E75-853B-4305-A0AE-1364E666A3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14432E75-853B-4305-A0AE-1364E666A3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14432E75-853B-4305-A0AE-1364E666A3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14432E75-853B-4305-A0AE-1364E666A3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B335719E-38CD-4EF9-AE81-804DA97554CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B335719E-38CD-4EF9-AE81-804DA97554CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B335719E-38CD-4EF9-AE81-804DA97554CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B335719E-38CD-4EF9-AE81-804DA97554CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CCA03E-438B-4517-A871-0249EE1714B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CCA03E-438B-4517-A871-0249EE1714B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CCA03E-438B-4517-A871-0249EE1714B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CCA03E-438B-4517-A871-0249EE1714B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB685122-D1A0-4D02-98F1-420F5DC4E747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB685122-D1A0-4D02-98F1-420F5DC4E747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB685122-D1A0-4D02-98F1-420F5DC4E747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB685122-D1A0-4D02-98F1-420F5DC4E747}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
