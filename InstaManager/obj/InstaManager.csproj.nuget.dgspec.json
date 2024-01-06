@@ -45,6 +45,10 @@
             "Mapster": {
               "target": "Package",
               "version": "[7.4.1-pre01, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

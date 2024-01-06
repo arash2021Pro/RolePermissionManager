@@ -10,11 +10,9 @@ public class User:Core
     {
         Serial = GenerateSerial();
     }
-    
     public int ?CreatorId { get; set; }
     public User? Creator { get; set; } 
     public ICollection<User> Users { get; set; }
-    
     public int RoleId { get; set; }
     public Role Role { get; set; }
     private string GenerateSerial() => Guid.NewGuid().ToString().Replace("-", "").Substring(1, 6);

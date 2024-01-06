@@ -22,7 +22,7 @@ public class ListRoleSelectionQueryHandler : IRequestHandler<ListRoleSelectionQu
     {
         _unitOfWork = unitOfWork;
     }
-
+    
     public async Task<Result<List<EnumSelection>>> Handle(ListRoleSelectionQuery request, CancellationToken cancellationToken)
     {
         List<EnumSelection> roles = await _unitOfWork.Set<Role>().Select(x => new EnumSelection()

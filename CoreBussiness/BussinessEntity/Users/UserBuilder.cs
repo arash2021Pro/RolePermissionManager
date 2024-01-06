@@ -84,9 +84,9 @@ public class UserBuilder
         return this;
     }
 
-    public UserBuilder SetFullName(string fullName)
+    public UserBuilder SetFullName(string name,string lastName)
     {
-        user.FullName = fullName;
+        user.GetFullName(name,lastName);
         return this;
     }
 
@@ -101,7 +101,7 @@ public class UserBuilder
         user.Serial = serial;
         return this;
     }
-
+    
     public User Build()
     {
         return user;

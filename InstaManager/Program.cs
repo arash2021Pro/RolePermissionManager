@@ -9,6 +9,7 @@ using InstaManager.ModuleApplication.SeedApplication;
 using InstaManager.ModuleApplication.ServiceApps;
 using InstaManager.ModuleApplication.SwaggerApp;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +29,7 @@ builder.Services.AddHttpClient();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddJwtAuthenticationService(builder.Configuration);
+builder.Services.AddDataProtection();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 
 builder.Services.BindApplication(builder.Configuration);

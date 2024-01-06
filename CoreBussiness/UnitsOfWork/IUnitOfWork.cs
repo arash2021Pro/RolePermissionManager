@@ -10,7 +10,10 @@ public interface IUnitOfWork
     int SaveChanges(CancellationToken cancellationToken  = new CancellationToken());
     IQueryable<TEntity> FromSqlRaw<TEntity>(string sql, params object[] parameters) where TEntity : class;
     IQueryable<TEntity> FromSqlInterpolated<TEntity>(FormattableString sql) where TEntity : class;
-    
+    Task<int> ExecuteRemoveAsync<TEntity>(TEntity? entity, CancellationToken cancellationToken = default) where TEntity : class;
+
+    Task<int> ExecuteAddAsync<TEntity>(TEntity? entity, CancellationToken cancellationToken = default)
+        where TEntity : class;
     Task<IDbContextTransaction> BeginTransaction();
     Task<IDbContextTransaction> BeginTransactionAsync(CancellationToken cancellationToken = default);
     Task CommitTransactionAsync(IDbContextTransaction transaction, CancellationToken cancellationToken = default);

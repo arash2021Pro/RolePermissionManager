@@ -32,4 +32,5 @@ public class EnumerationController:ControllerBase
         var result = await _mediator.Send(new ListRoleSelectionQuery());
         return result.Success ? Ok(result.Data) : BadRequest(result.Error);
     }
+    
 }

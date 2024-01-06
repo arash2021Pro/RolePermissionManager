@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DxfvFm5LO7cTkJhd/2DHOW5Q9mRypn8LfgzSHMGAgVuNzHL4tVgA5YlCwhhvtHCAj8NGGaYYeNKkwykqXhQ3HQ==",
+  "dgSpecHash": "oDyAx+YXMX0eSHywCGgAm0wybUFf2XUJndDKP0ljuQhGp+9CaSvec504AIuiyy1pnY52FGGPfEh6CSwBLFwVhw==",
   "success": true,
   "projectFilePath": "E:\\RiderProjects\\InstaManager\\CoreApplication\\CoreApplication.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\farabord\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.14\\microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",
     "C:\\Users\\farabord\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\farabord\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\farabord\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\farabord\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\farabord\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\farabord\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",

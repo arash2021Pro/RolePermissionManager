@@ -908,7 +908,8 @@
       "CoreApplication/1.0.0": {
         "dependencies": {
           "CoreBussiness": "1.0.0",
-          "Mapster": "7.4.1-pre01"
+          "Mapster": "7.4.1-pre01",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "runtime": {
           "CoreApplication.dll": {}

@@ -27,8 +27,7 @@ public class DeleteRoleCommandHandler : IRequestHandler<DeleteRoleCommand, Resul
         {
             return Result<bool>.Fail("نقش پیدا نشد");
         }
-        _unitOfWork.Set<Role>().Remove(role);
-        var saveChange = await _unitOfWork.SaveChangesAsync(cancellationToken);
+        var saveChange = await _unitOfWork.ExecuteRemoveAsync(role,cancellationToken);
         return saveChange > 0 ? Result<bool>.IsSuccess(true) : Result<bool>.Fail("خطا در پاسخگویی ");
     }
 }

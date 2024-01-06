@@ -129,7 +129,7 @@ public class RoleController:ControllerBase
         var result = await _mediator.Send(new SetRolePermissionCommand() {RolePermissions = rolePermissions});
         return result.Success ? Ok(result.Data) : BadRequest(result.Error);
     }
-
+    
     /// <summary>
     /// setting roles for users
     /// </summary>
@@ -157,7 +157,5 @@ public class RoleController:ControllerBase
         var result = await _mediator.Send(new EditPermissionStatusCommand(){PermissionChangeStatus = permissionChangeStatus});
         return result.Success ? Ok(result.Data) : BadRequest(result.Error);
     }
-
- 
     
 }

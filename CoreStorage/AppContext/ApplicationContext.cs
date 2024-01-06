@@ -48,7 +48,27 @@ public class ApplicationContext:DbContext,IUnitOfWork
     {
         return base.Set<TEntity>().FromSqlInterpolated(sql);
     }
-    
+
+    public async Task<int> ExecuteRemoveAsync<TEntity>(TEntity? entity, CancellationToken cancellationToken = default) where TEntity : class
+    {
+        if (entity == null)
+        {
+            throw new ArgumentNullException(nameof(entity));
+        }
+        base.Set<TEntity>().Remove(entity);
+        return await base.SaveChangesAsync(cancellationToken);
+    }
+
+    public async Task<int> ExecuteAddAsync<TEntity>(TEntity? entity, CancellationToken cancellationToken = default) where TEntity : class
+    {
+        if (entity == null)
+        {
+            throw new ArgumentNullException(nameof(entity));
+        }
+        await base.Set<TEntity>().AddAsync(entity, cancellationToken);
+        return await base.SaveChangesAsync(cancellationToken);
+    }
+
     public int SaveChanges(CancellationToken cancellationToken = new CancellationToken())
     {
         return base.SaveChanges();

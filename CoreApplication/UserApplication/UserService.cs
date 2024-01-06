@@ -5,15 +5,18 @@ using CoreBussiness.ResultPattern;
 using CoreBussiness.UnitsOfWork;
 using MapsterMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace CoreApplication.UserApplication;
 
 public class UserService:IUserService
 {
     private IUnitOfWork _unitOfWork;
-    public UserService(IUnitOfWork unitOfWork)
+    private IConfiguration _configuration;
+    public UserService(IUnitOfWork unitOfWork, IConfiguration configuration)
     {
         _unitOfWork = unitOfWork;
+        _configuration = configuration;
     }
     public async Task<Result<User>> GetUserAsync(int userId,CancellationToken cancellationToken)
     {
@@ -32,12 +35,14 @@ public class UserService:IUserService
         var user= await _unitOfWork.Set<User>().AsTracking().FirstOrDefaultAsync(x => x.Id == userId);
         return user == null ? Result<string>.Fail("کاربری یافت نشد") : Result<string>.IsSuccess(user.Token!);
     }
-    
     public async Task<Result<bool>> GetUserPermissionAsync(int userId,string? controllerName,string? actionName)
     {
-        var user = await _unitOfWork.Set<User>().AsTracking().FirstOrDefaultAsync(x => x.Id == userId);
+        var superAccess = _configuration.GetSection("AccessSettings:SuperAccess").Value;
+        var user = await _unitOfWork.Set<User>().FirstOrDefaultAsync(x => x.Id == userId);
         var isPermitted = await _unitOfWork.Set<Permission>().AnyAsync(x =>
-            x.RoleId == user!.RoleId && x.ControllerName == controllerName && x.ActionName == actionName && x.IsActive == true || x.PermissionName == "FullAccess");
+            x.RoleId == user!.RoleId && x.ControllerName == controllerName && x.ActionName == actionName &&
+            x.IsActive == true || x.PermissionName == superAccess);
         return isPermitted ? Result<bool>.IsSuccess(true) : Result<bool>.Fail("عدم دسترسی");
     }
+    
 }
